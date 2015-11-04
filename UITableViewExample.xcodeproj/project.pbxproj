@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		044799F31BEA62FB000BBF28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044799F21BEA62FB000BBF28 /* main.m */; };
 		044799F61BEA62FB000BBF28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044799F51BEA62FB000BBF28 /* AppDelegate.m */; };
-		044799F91BEA62FB000BBF28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044799F81BEA62FB000BBF28 /* ViewController.m */; };
 		044799FC1BEA62FB000BBF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044799FA1BEA62FB000BBF28 /* Main.storyboard */; };
 		044799FF1BEA62FB000BBF28 /* UITableViewExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 044799FD1BEA62FB000BBF28 /* UITableViewExample.xcdatamodeld */; };
 		04479A011BEA62FB000BBF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04479A001BEA62FB000BBF28 /* Assets.xcassets */; };
@@ -40,8 +39,6 @@
 		044799F21BEA62FB000BBF28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		044799F41BEA62FB000BBF28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		044799F51BEA62FB000BBF28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		044799F71BEA62FB000BBF28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		044799F81BEA62FB000BBF28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		044799FB1BEA62FB000BBF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		044799FE1BEA62FB000BBF28 /* UITableViewExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UITableViewExample.xcdatamodel; sourceTree = "<group>"; };
 		04479A001BEA62FB000BBF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,10 +100,6 @@
 		044799F01BEA62FB000BBF28 /* UITableViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				044799F41BEA62FB000BBF28 /* AppDelegate.h */,
-				044799F51BEA62FB000BBF28 /* AppDelegate.m */,
-				044799F71BEA62FB000BBF28 /* ViewController.h */,
-				044799F81BEA62FB000BBF28 /* ViewController.m */,
 				044799FA1BEA62FB000BBF28 /* Main.storyboard */,
 				04479A001BEA62FB000BBF28 /* Assets.xcassets */,
 				04479A021BEA62FB000BBF28 /* LaunchScreen.storyboard */,
@@ -120,6 +113,8 @@
 		044799F11BEA62FB000BBF28 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				044799F41BEA62FB000BBF28 /* AppDelegate.h */,
+				044799F51BEA62FB000BBF28 /* AppDelegate.m */,
 				044799F21BEA62FB000BBF28 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -277,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				044799FF1BEA62FB000BBF28 /* UITableViewExample.xcdatamodeld in Sources */,
-				044799F91BEA62FB000BBF28 /* ViewController.m in Sources */,
 				044799F61BEA62FB000BBF28 /* AppDelegate.m in Sources */,
 				044799F31BEA62FB000BBF28 /* main.m in Sources */,
 			);
@@ -505,6 +499,7 @@
 				04479A201BEA62FB000BBF28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04479A211BEA62FB000BBF28 /* Build configuration list for PBXNativeTarget "UITableViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +508,7 @@
 				04479A231BEA62FB000BBF28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04479A241BEA62FB000BBF28 /* Build configuration list for PBXNativeTarget "UITableViewExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +517,7 @@
 				04479A261BEA62FB000BBF28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
